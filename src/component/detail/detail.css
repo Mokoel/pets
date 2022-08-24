@@ -1,0 +1,17 @@
+.detail{
+    width: 60% ;
+    overflow: hidden;
+    text-align : center;
+}
+
+.imgdetail{
+    max-width: 500px;
+    min-width: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 3%;
+}
+
+.jb-bold {
+    font-weight: bold;
+}

@@ -1,0 +1,28 @@
+.item{
+    width: 25%;
+    display : flex;
+   
+    cursor :pointer;
+    padding: 3px;
+    border: 1px solid lightgray;
+    border-radius: 5%;
+}
+
+.thumbnail{
+    width: 25%;
+    height: 115px;
+    object-fit: cover;
+    border-radius: 7%;
+}
+
+.item:hover{
+    transform:scale(1.02);
+}
+
+.inform{
+    margin-left: 5px;
+    text-align: left;
+    padding-left: 2px;
+    font-size: small;
+    
+}

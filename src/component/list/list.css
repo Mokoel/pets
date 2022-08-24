@@ -1,0 +1,19 @@
+.list{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 2000px;
+    max-width: 1500px;
+    justify-content: right;
+}
+
+.detail+.list{
+    width: 40%;
+    overflow-y: scroll;
+}
+
+.detail+.list .item{
+    width:100%;
+    max-width: 500px;
+    background-color: aliceblue;
+}
